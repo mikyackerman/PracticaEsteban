@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<style>
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+</style>
+
+<body>
+
+<form action = "agregarEmpleado.php" method = "post" name = "form">
+	<label>Nombre:</label>
+	<input type = "text" name = "nombre" />	
+	<br><br>
+	<label>Edad:</label>
+	<input type = "text" name = "edad" />
+	<br><br>
+	<label>Direccion:</label>
+	<input type = "text" name = "direccion" />
+	<br><br>
+	<label>Estado:</label>
+	<input type = "text" name = "estado" />
+	<br><br>
+	<label>Telefono:</label>
+	<input type = "text" name = "telefono" />
+	<br><br>
+	<input type="date" id="fecha" name="fecha" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}">
+		
+	<br>
+	<a href="select.php" class="button">Regresar</a>
+	
+	<input type = "submit" value = "Agegar" />
+
+	
+</form>	
+
+</body>
+</html>
